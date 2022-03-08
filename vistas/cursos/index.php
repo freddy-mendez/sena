@@ -65,10 +65,10 @@ $cursos = $_SESSION['cursos'];
                     echo "<td>".$curso->instr->nom." ".$curso->instr->ape."</td>";
                     echo "<td>".$curso->numHoras."</td>";
                     echo "<td>";
-                    echo "<a href='agregarAprendiz.php?id=".$indice."' class='btn btn-primary'>Agregar Aprendices</a>";
-                    echo "<a href='edit.php?id=".$indice."' class='btn btn-warning'>Editar</a>";
-                    echo "<a href='delete.php?id=".$indice."' class='btn btn-danger'>Eliminar</a>";
-                    echo "<a href='show.php?id=".$indice."' class='btn btn-secondary'>Ver Curso</a>";
+                    echo "<a href='agregarAprendiz.php?id=".$indice."' class='btn btn-primary btn-sm me-1'>Agregar Aprendices</a>";
+                    echo "<a href='edit.php?id=".$indice."' class='btn btn-warning btn-sm me-1'>Editar</a>";
+                    echo "<a href='delete.php?id=".$indice."' class='btn btn-danger btn-sm me-1'>Eliminar</a>";
+                    echo "<a href='show.php?id=".$indice."' class='btn btn-secondary btn-sm'>Ver Curso</a>";
                     echo "</td>";
                     echo "</tr>";
                 }
